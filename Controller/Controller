@@ -1,0 +1,24 @@
+public class Controller
+{
+    // implement the model and view into the controller under controllerModel and controllerView
+    Model controllerModel;
+    View controllerView;
+
+    // rename them to model and view
+    public Controller(Model model, View view)
+    {
+        controllerModel = model;
+        controllerView = view;
+    }
+
+    public void AddBook();
+
+    public void UpdateBook();
+
+    public void DeleteBook();
+
+    public void GetBook();
+
+    public void GetAllBooks();
+
+}
