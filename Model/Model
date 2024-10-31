@@ -1,0 +1,22 @@
+public class Model
+{
+    // create the fields with getters and setters
+    public int BookID { get; set; }
+    public string? Title { get; set; }
+    public string? Author { get; set; }
+    public int YearPublished { get; set; }
+
+    // create a constructor that takes all the fields from above 
+    public Model(int BookID, string Title, string Author, int YearPublished)
+    {
+        BookID = bookId;
+        Title = title;
+        Author = author;
+        YearPublished = yearPublished;
+    }
+
+    public override string ToString()
+    {
+        return $"BookID: {bookId}, Title: {title}, Author: {author}, Year published: {yearPublished}";
+    }
+}
